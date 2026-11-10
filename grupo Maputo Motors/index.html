@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Oficina Maputo Motors: manutenção preventiva, reparação mecânica e diagnóstico eletrónico em Maputo.">
+    <title>Oficina Maputo Motors | Manutenção e reparação automóvel em Maputo</title>
+
+    <!-- Partilha em redes sociais e WhatsApp -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_MZ">
+    <meta property="og:title" content="Oficina Maputo Motors">
+    <meta property="og:description" content="Manutenção preventiva, reparação mecânica e diagnóstico eletrónico em Maputo.">
+    <meta property="og:image" content="img/trabalho-mecanico.jpg">
+
+    <link rel="icon" href="img/logo-maputo-motores-motor.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Dados estruturados para o Google -->
+    <script type="application/ld+json">
+    
+    </script>
+</head>
+<body>
+    <a class="saltar" href="#conteudo">Saltar para o conteúdo</a>
+
+    <!-- Cabeçalho -->
+    <header>
+        <a class="logo" href="#home">
+            <img src="img/logo-maputo-motores-motor.svg" alt="" width="40" height="40">
+            <span>Maputo Motors</span>
+        </a>
+        <nav aria-label="Menu principal">
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#testemunhos">Testemunhos</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="conteudo">
+        <!-- Página Inicial -->
+        <section id="home" class="hero">
+            <div class="hero-texto">
+                <h1>Cuidamos do seu carro, cuidamos de si</h1>
+                <p>Serviços de manutenção e reparação automóvel em Maputo</p>
+                <a href="#contacto" class="btn">Contacte-nos</a>
+            </div>
+        </section>
+
+        <!-- Sobre Nós -->
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Fundada em Maputo em 2017, a Oficina Maputo Motors oferece serviços de qualidade e confiança para todo o país.</p>
+        </section>
+
+        <!-- Serviços -->
+        <section id="servicos" class="faixa">
+            <h2>Serviços</h2>
+            <ul class="lista-servicos">
+                <li>Manutenção preventiva</li>
+                <li>Reparação mecânica</li>
+                <li>Diagnóstico eletrónico</li>
+                <li>Serviços rápidos</li>
+            </ul>
+        </section>
+
+        <!-- Galeria -->
+        <section id="galeria">
+            <h2>Galeria</h2>
+            <div class="grid">
+                <img src="img/trabalho mecanico.jpg" alt="Mecânico a trabalhar na oficina" loading="lazy">
+                <img src="img/fortuner .webp" alt="Toyota Fortuner atendido na oficina" loading="lazy">
+                <img src="img/ractis.webp" alt="Toyota Ractis atendido na oficina" loading="lazy">
+            </div>
+        </section>
+
+        <!-- Testemunhos -->
+        <section id="testemunhos" class="faixa">
+            <h2>Testemunhos</h2>
+            <div class="citacoes">
+                <blockquote>
+                    <p>“Excelente serviço, recomendo a todos!”</p>
+                    <footer>Cliente João Sitoé</footer>
+                </blockquote>
+                <blockquote>
+                    <p>“Atendimento rápido e profissional.”</p>
+                    <footer>Cliente Maria Manhique</footer>
+                </blockquote>
+                <blockquote>
+                    <p>“Fiáveis, cumprem o prazo de entrega da viatura.”</p>
+                    <footer>Cliente Guiston Arão</footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- Blog -->
+        <section id="blog">
+            <h2>Dicas e Blog</h2>
+            <article>
+                <h3>Como poupar combustível?</h3>
+                <p>Pequenas práticas podem reduzir o consumo e prolongar a vida útil do carro.</p>
+            </article>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="faixa">
+            <h2>Contacto</h2>
+            <div class="contacto-grid">
+                <address>
+                    <p>Av. Eduardo Mondlane, Nr 532, Maputo</p>
+                    <p>
+                        <a href="tel:+258872610538">+258 872610538</a><br>
+                        <a href="tel:+258864326700">+258 864326700</a>
+                    </p>
+                    <p>
+                        <a href="https://wa.me/258872610538" target="_blank" rel="noopener">Falar pelo WhatsApp</a>
+                    </p>
+                </address>
+
+                <!-- A mensagem é enviada por WhatsApp  -->
+                <form id="form-contacto" action="#" method="post">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" autocomplete="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                    <button type="submit" class="btn">Enviar pelo WhatsApp</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <p>© 2026 Oficina Maputo Motors | Guiston, Ernesto, Cheyd e Andrisse.</p>
+    </footer>
+
+    <script>
+        // Abre o WhatsApp com a mensagem já escrita 
+        document.getElementById("form-contacto").addEventListener("submit", function (e) {
+            e.preventDefault();
+            var nome = document.getElementById("nome").value.trim();
+            var email = document.getElementById("email").value.trim();
+            var msg = document.getElementById("mensagem").value.trim();
+            var texto = "Olá, sou " + nome + " (" + email + "). " + msg;
+            window.open("https://wa.me/258846494328?text=" + encodeURIComponent(texto), "_blank", "noopener");
+        });
+    </script>
+</body>
